@@ -1,0 +1,233 @@
+.productsContainer{
+    position: relative;
+    padding: 150px 10%;
+    overflow: hidden;
+    .container{
+        position: relative;
+        // border: 1px solid #111;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 0 20px;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        .info_images{
+            background-color: #F7B86F;
+            width: 420px;
+            height: 370px;
+            // background-color: $textHoverColor;
+            border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+            @include flexCenter;
+            position: relative;
+            .chicken1{
+                position: absolute;
+                height: 420px;
+            }
+            .smallBubble{
+                position: absolute;
+                bottom: -10%;
+                left: 0;
+
+                width: 150px;
+                height: 150px;
+                background-color: #F9C1C6;
+                border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+                @include flexCenter;
+                flex-direction: column;
+                padding: 30px;
+                animation: blob 3.7s linear infinite;
+                transform: all .4s;
+                p{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #30529F;
+                }
+            }
+            .smallBubble_top{
+                position: absolute;
+                top: -10%;
+                right: 0;
+
+                width: 150px;
+                height: 150px;
+                background-color: #F9C1C6;
+                border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+                @include flexCenter;
+                flex-direction: column;
+                padding: 30px;
+                animation: blob 3.7s linear infinite;
+                transform: all .4s;
+                p{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #30529F;
+                }
+            }
+            .packageImage{
+                position: absolute;
+                bottom: -10%;
+                right: -40%;
+                height: 300px;
+            }
+            animation: blob 3.7s linear infinite;
+        }
+        .leftBtn{
+            position: absolute;
+            left: -2%;
+            top: 50%;
+            z-index: 111;
+            cursor: pointer;
+            transform: rotate(180deg);
+            color: #fff;
+            background-color: #30529F;
+
+            width: 36px;
+            height: 36px;
+            border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            transition: all .4s;
+            &:hover{
+                background-color: #CED6E9;
+            }
+        }
+        .rightBtn{
+            position: absolute;
+            right: -2%;
+            top: 50%;
+            z-index: 111;
+            cursor: pointer;
+            color: #fff;
+            background-color: #30529F;
+
+            width: 36px;
+            height: 36px;
+            border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            transition: all .4s;
+            &:hover{
+                background-color: #CED6E9;
+            }
+        }
+    }
+    .info_text{
+        width: 50%;
+        margin-left: 140px;
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: $primaryTextColor;
+            letter-spacing: 1px;
+        }
+        p{
+            margin-top: 34px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $secondaryTextColor;
+            width: 75%;
+            letter-spacing: 0.5px;
+        }
+        .circles{
+            display: flex;
+            margin-bottom: 10px;
+            .circle{
+                width: 12px;
+                height: 12px;
+                // border: 1px solid #111;
+                border-radius: 50%;
+                margin-right: 10px;
+                cursor: pointer;
+                background-color: #E6EBF4;
+                transition: all .4s;
+                &:hover{
+                    background-color: #A9B6D7;
+                }
+            }
+        }
+        .product_buttons{
+            margin-top: 34px;
+            display: flex;
+            button{
+                margin-right: 34px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:nth-child(1){
+                    width: 160px;
+                    height: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    background-color: $textHoverColor;
+                    border-radius: 8px;
+                }
+                &:nth-child(2){
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                    background: none;
+                    border: none;
+                    color: rgba(48, 82, 159, 0.57);
+                    transition: all .4s;
+                    img{
+                        margin-left: 5px;
+                        transition: all .4s; 
+                    }
+                    &:hover{
+                        img{
+                            margin-left: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .backElements{
+        // border: 1px solid #111;
+        position: absolute;
+        bottom: -20%;
+        z-index: -1;
+        left: 0;
+    }
+    .backElements1{
+        // border: 1px solid #111;
+        height: 400px;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        z-index: -11;
+        transform: rotate(56deg);
+    }
+}
+
+
+@keyframes blob{
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+
+}

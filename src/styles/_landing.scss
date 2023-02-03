@@ -1,0 +1,110 @@
+.landingContainer{
+    position: relative;
+    overflow: hidden;
+    // border: 1px solid #111;
+    height: 100vh;
+    .pig_blob{
+        position: absolute;
+        top: -5%;
+        right: -15%;
+        width: 1260px;
+        height: 600px;
+        overflow: hidden;
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+        // background: url('../assets/pig.png');
+        background-size: cover;
+        background-position: center;
+        background-color: #F7D7DB;
+        z-index: -1;
+        // animation: blob 3.7s linear infinite;
+        img{
+            position: absolute;
+            right: 0%;
+            bottom: -15%;
+            height: 630px;
+        }
+    }
+    .intro{
+        position: absolute;
+        left: 10%;
+        top: 225px;
+        // border: 1px solid #111;
+        @include flexCenter;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+        letter-spacing: 1px;
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            color: $primaryTextColor;
+        }
+        p{
+            margin-top: 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $secondaryTextColor;
+        }
+        .buttons{
+            margin-top: 30px;
+            .btn{
+                margin-right: 30px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+                width: 160px;
+                height: 40px;     
+                border-radius: 8px;
+                background-color: $buttonBackground;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                &:nth-child(1){
+                    color: #fff;
+                }
+                &:nth-child(2){
+                    color: $primaryTextColor;
+                    background-color: rgb(48, 82, 159, .2);
+                    // opacity: 20%;
+                }
+            }
+        }
+    }
+    .backElements{
+        // border: 1px solid #111;
+        position: absolute;
+        bottom: -20%;
+        z-index: -1;
+    }
+    .backElements1{
+        // border: 1px solid #111;
+        height: 400px;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        z-index: -11;
+        transform: rotate(56deg);
+    }
+}
+
+@keyframes blob{
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+
+}
+
+
+

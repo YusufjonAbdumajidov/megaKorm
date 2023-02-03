@@ -1,0 +1,118 @@
+.companyContainer{
+    padding: 100px 10%;
+    display: flex;
+    // flex-direction: column;
+    .images_container{
+        // border: 1px solid #111;
+        .image{
+            width: 375.1px;
+            height: 370.6px;
+            // background: url("../assets/company.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #7C90C0;
+            overflow: hidden;
+            border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+            // border: 1px solid #111;
+            animation: blob 6.7s linear infinite;
+        }
+        section{
+            // border: 1px solid #111;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            div{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                cursor: pointer;
+                margin-right: 10px;
+                background-color: #abbcdc;
+                transition: all .4s;
+                &:hover{
+                    background-color: #30529F;
+                }
+                &:nth-child(3){
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .text_container{
+        margin-left: 40px;
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: $primaryTextColor;
+        }
+        p{
+            margin-top: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212F50;
+            margin-bottom: 42px;
+        }
+        .ratings{
+            // border: 1px solid #111;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: #F28F1B;
+                }
+                p{
+                    margin: 0;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #F28F1B;
+                }
+            }
+        }
+        button{
+            margin-top: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background: none;
+            outline: none;
+            border: none;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #869AC7;
+            img{
+                margin-right: 4px;
+            }
+        }
+    }
+}
+
+
+@keyframes blob{
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+
+}
