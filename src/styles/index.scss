@@ -8,10 +8,9 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Gothic A1', sans-serif;
+    scroll-behavior: smooth;
 }
-body{
-    background-color: $backgroundColor;
-}
+body{background-color: $backgroundColor;}
 .loadingContainer{
     position: relative;
     width: 100%;

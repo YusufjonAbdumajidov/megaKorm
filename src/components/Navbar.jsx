@@ -16,11 +16,11 @@ const Navbar = () => {
             <img src={Logo} alt="logo" />
         </div>
         <ul ref={navRef}>
-            <li><a href="наши">наши корма</a></li>
-            <li><a href="калькулятор">калькулятор</a></li>
-            <li><a href="как">как купить</a></li>
-            <li><a href="нас">о нас</a></li>
-            <li><a className='lastBtn' href="полезные">полезные статьи</a></li>
+            <li><a href="#наши">наши корма</a></li>
+            <li><a href="#калькулятор">калькулятор</a></li>
+            <li><a href="#как">как купить</a></li>
+            <li><a href="#нас">о нас</a></li>
+            <li><a className='lastBtn' href="#полезные">полезные статьи</a></li>
             <img className=' nav-btn nav-close-btn' src={exitBtn} alt="exitBtn" onClick={showNavbar}/>
         </ul>
         <img className='nav-btn openBtn' src={menuIcon} alt="menuIcon"  onClick={showNavbar}/>

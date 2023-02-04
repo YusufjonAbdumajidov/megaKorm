@@ -39,7 +39,7 @@ const allProducts = [
 const Calculator = () => {
   const [ counter, setCounter ] = useState(0);
   return (
-    <div className='calculatorContainer'>
+    <div className='calculatorContainer' id='калькулятор'>
         <div className="text_wrapper">
             <h1>Калькулятор корма</h1>
             <p>Выберите животное, введите количество голов и получите точный расчет количества корма, необходимого для вашего поголовья. Все просто. </p>

@@ -70,7 +70,7 @@ const Products = () => {
     }
 
   return <>
-    <div className='productsContainer'>
+    <div className='productsContainer' id='наши'>
         <section className="container">
             <span className='leftBtn' onClick={() => changeProduct("decrease")}  ><BsChevronRight /></span>
             <div className="info_images" style={{backgroundColor: `${allProducts[counter].blobColor}`}}>

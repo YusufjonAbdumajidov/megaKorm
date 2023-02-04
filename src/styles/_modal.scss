@@ -16,15 +16,11 @@
         height: 500px;
         border-radius: 8px;
         z-index: 111111;
-        // overflow-y: scroll;
         .exitModalBtn{
             position: absolute;
             right: -1%;
             top: -2%;
             cursor: pointer;
-
-            // width: 36px;
-            // height: 36px;
             padding: 10px;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
             display: flex;
@@ -34,58 +30,30 @@
         }
         header{
             width: 825px;
-            // border: 1px solid #111;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             table{
-                // table, th, td {
-                //     border: 1px solid blue;
-                // }
-                th{
-                    color: #A6B5D6;
-                }
+                th{ color: #A6B5D6; }
                 width: 100%;
-                .firstRow{
-                    margin-bottom: 20px;
-                    
-                }
-                th{
-                    text-align: left;
-                }
+                .firstRow{ margin-bottom: 20px;     }
+                th{   text-align: left; }
                 tr{
                     border: 1px solid #111;
-                    td{
-                        padding: 10px 0;
-                    }
+                    td{  padding: 10px 0; }
                 }
             }
         }
     }
 }
 
-
-
-
-//Making a responsive
-@media (min-width: 1280px){
-   
-}
-@media (max-width: 1024px){
-   
-}
-@media (max-width: 935px){
-  
-}
 @media (max-width: 835px){
     .modal{
         .calender{
             width: 745px;
             height: 300px;
             bottom: 10%;    
-            header{
-                width: 745px;
-            }
+            header{  width: 745px;  }
         }
     }
 }
@@ -98,9 +66,7 @@
             header{
                 width: 545px;
                 table{
-                    th{
-                        font-size: 10px;
-                    }
+                    th{  font-size: 10px; }
                 }
             }
         }
@@ -115,12 +81,8 @@
             header{
                 width: 345px;
                 table{
-                    th{
-                        font-size: 10px;
-                    }
-                    tr{
-                        font-size: 10px;
-                    }
+                    th{    font-size: 10px;  }
+                    tr{   font-size: 10px;   }
                 }
             }
         }

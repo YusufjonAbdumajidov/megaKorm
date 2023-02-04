@@ -1,7 +1,6 @@
 footer{
     padding: 0 10%;
     height: 20vh;
-    // border: 1px solid #111;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,47 +33,22 @@ footer{
         display: flex;
         flex-wrap: wrap;
         img{
-            background-color: red;
             height: 40px;
             width: 45px;
-            // margin-right: 50px;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
             cursor: pointer;
             margin: 20px;
-            &:nth-child(1){
-                background-color: #F585A7;
-            }
-            &:nth-child(2){
-                background-color: #99E1EF;
-            }
-            &:nth-child(3){
-                background-color: #8A9CC6;
-            }
-            &:nth-child(4){
-                background-color:  #AA89C0;
-            }
+            &:nth-child(1){background-color: #F585A7; }
+            &:nth-child(2){background-color: #99E1EF;}
+            &:nth-child(3){ background-color: #8A9CC6; }
+            &:nth-child(4){ background-color:  #AA89C0;}
         }
     }
 }
 
-
 //Making responsive
-@media (min-width: 1280px){
-   
-}
 @media (max-width: 1024px){
     footer{
-        .logo{
-            h1{
-              
-            }
-            span{
-              
-            }
-        }
-        p{
-           
-        }
         .icons{
             display: flex;
             flex-wrap: wrap;
@@ -86,17 +60,9 @@ footer{
         }
     }
 }
-@media (max-width: 935px){
-   
-}
-@media (max-width: 835px){
-   
-}
 @media (max-width: 601px){
     footer{
         flex-direction: column;
-       
-        
         .icons{
             display: flex;
             flex-wrap: wrap;
@@ -112,16 +78,10 @@ footer{
     footer{
         flex-direction: column;
         .logo{
-            h1{
-              font-size: 16px;
-            }
-            span{
-                font-size: 10px;
-            }
+            h1{font-size: 16px;}
+            span{ font-size: 10px; }
         }
-        p{
-            font-size: 12px;
-        }
+        p{ font-size: 12px;}
         .icons{
             display: flex;
             flex-wrap: wrap;

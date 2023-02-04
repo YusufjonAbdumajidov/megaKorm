@@ -8,7 +8,7 @@ const Map = () => {
     const { isLoaded } = useLoadScript({ googleMapsApiKey: process.env.NEXT_GOOGLE_MAP_API });
     if(!isLoaded) return <div>Loading...</div>
   return (
-    <div className='mapContainer'>
+    <div className='mapContainer' id='как'>
       
        <GoogleMap 
        zoom={10} 

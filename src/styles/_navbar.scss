@@ -1,6 +1,5 @@
 nav{
     position: relative;
-    // border: 1px solid #111;
     width: 80%;
     margin: 0 auto;
     padding: 36px 0;
@@ -27,13 +26,9 @@ nav{
                 line-height: 17px;
                 transition: all .3s;
                 letter-spacing: 1px;
-                &:hover{
-                    color: $textHoverColor;
-                }
+                &:hover{ color: $textHoverColor; }
             }
-            .lastBtn{
-                margin-right: 0px;
-            }
+            .lastBtn{ margin-right: 0px; }
         }
     }
     .nav-btn{
@@ -48,9 +43,7 @@ nav{
 
 @media (max-width: 1064px){
    nav{
-    .logo{
-       z-index: 1111;
-    }
+    .logo{ z-index: 1111; }
     ul{
         position: fixed;
         height: 100%;
@@ -65,9 +58,7 @@ nav{
         background-color: #f9f9f9;
         transition: all .4s;
         z-index: 11;
-        li{
-            font-size: 24px;
-        }
+        li{ font-size: 24px;  }
     }
     .nav-btn{
         cursor: pointer;

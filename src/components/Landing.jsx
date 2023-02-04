@@ -11,8 +11,8 @@ const Landing = () => {
             <h1>Мегакорм — залог здоровья животных </h1>
             <p>Высококачественный сбалансированный комбикорм, содержащий суточную потребность в питательных веществах, обеспечивает здоровье животных и птиц, повышает эффективность хозяйства.</p>
             <section className="buttons">
-                <button className='btn'>Где купить</button>
-                <button className='btn'>Калькулятор</button>
+                <a href="#как"><button className='btn'>Где купить</button></a> 
+                <a href="#калькулятор"><button className='btn2' >Калькулятор</button></a> 
             </section>
         </div>
         <div className="pig_blob">

@@ -1,7 +1,6 @@
 .landingContainer{
     position: relative;
     overflow: hidden;
-    // border: 1px solid #111;
     height: 100vh;
     .pig_blob{
         position: absolute;
@@ -11,12 +10,11 @@
         height: 600px;
         overflow: hidden;
         border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-        // background: url('../assets/pig.png');
         background-size: cover;
         background-position: center;
         background-color: #F7D7DB;
         z-index: -1;
-        // animation: blob 3.7s linear infinite;
+        animation: blob 3.7s linear infinite;
         img{
             position: absolute;
             right: 0%;
@@ -28,7 +26,6 @@
         position: absolute;
         left: 10%;
         top: 225px;
-        // border: 1px solid #111;
         @include flexCenter;
         flex-direction: column;
         align-items: flex-start;
@@ -65,25 +62,32 @@
                 cursor: pointer;
                 border: none;
                 outline: none;
-                &:nth-child(1){
-                    color: #fff;
-                }
-                &:nth-child(2){
-                    color: $primaryTextColor;
-                    background-color: rgb(48, 82, 159, .2);
-                    // opacity: 20%;
-                }
+                &:nth-child(1){color: #fff;} 
+            }
+            .btn2{
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+                width: 160px;
+                height: 40px;     
+                border-radius: 8px;
+                background-color: $buttonBackground;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                color: $primaryTextColor;
+                background-color: rgb(48, 82, 159, .2);
             }
         }
     }
     .backElements{
-        // border: 1px solid #111;
         position: absolute;
         bottom: -20%;
         z-index: -11;
     }
     .backElements1{
-        // border: 1px solid #111;
         height: 400px;
         position: absolute;
         right: -5%;
@@ -92,18 +96,10 @@
         transform: rotate(56deg);
     }
 }
-
 @keyframes blob{
-    0%, 100%{
-        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    }
-    33%{
-        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
-    }
-    66%{
-        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
-    }
-
+    0%, 100%{border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;}
+    33%{ border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;}
+    66%{ border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; }
 }
 
 
@@ -166,20 +162,14 @@
         .intro{
             width: 70%;
             top: 290px;
-            .buttons{
-                display: flex;
-            }
+            .buttons{  display: flex; }
         }
     }
 }
 @media (max-width: 601px){
     .landingContainer{
-        .pig_blob{
-            right: -55%;
-        }
-        .buttons{
-            display: flex;
-        }
+        .pig_blob{ right: -55%; }
+        .buttons{  display: flex; }
     }
 }
 @media (max-width: 450px){
@@ -202,9 +192,7 @@
                 font-size: 40px;
                 line-height: 40px;
             }
-            p{
-                font-size: 14px;
-            }
+            p{  font-size: 14px; }
             .buttons{
                 display: flex;
                 .btn{

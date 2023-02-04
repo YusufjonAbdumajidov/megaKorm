@@ -14,7 +14,7 @@ const AboutCompany = () => {
     }else setBackImage(companyImage2)
   }
   return (
-    <div className='companyContainer'>
+    <div className='companyContainer' id='нас'>
         <div className="images_container">
             <div style={{background: `url(${backImage})`}} className="image"></div>
             <section>

@@ -5,7 +5,7 @@ import companyImage2 from '../assets/company3.png';
 
 const Materials = () => {
   return (
-    <div className='materialsContainer'>
+    <div className='materialsContainer' id='полезные'>
         <div className="material_info">
             <h1>Полезные материалы</h1>
             <p>Мы постоянно проводим научные изыскания, направленные на увеличение эффективности животноводства и птицеводства

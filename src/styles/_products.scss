@@ -4,19 +4,14 @@
     overflow: hidden;
     .container{
         position: relative;
-        // border: 1px solid #111;
         display: flex;
         justify-content:center;
         align-items: center;
         padding: 0 20px;
-        // justify-content: center;
-        // align-items: center;
-        // flex-direction: column;
         .info_images{
             background-color: #F7B86F;
             width: 420px;
             height: 370px;
-            // background-color: $textHoverColor;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
             @include flexCenter;
             position: relative;
@@ -28,7 +23,6 @@
                 position: absolute;
                 bottom: -10%;
                 left: 0;
-
                 width: 150px;
                 height: 150px;
                 background-color: #F9C1C6;
@@ -49,7 +43,6 @@
                 position: absolute;
                 top: -10%;
                 right: 0;
-
                 width: 150px;
                 height: 150px;
                 background-color: #F9C1C6;
@@ -83,7 +76,6 @@
             transform: rotate(180deg);
             color: #fff;
             background-color: #30529F;
-
             width: 36px;
             height: 36px;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
@@ -92,9 +84,7 @@
             justify-content: center;
             font-size: 26px;
             transition: all .4s;
-            &:hover{
-                background-color: #CED6E9;
-            }
+            &:hover{ background-color: #CED6E9;  }
         }
         .rightBtn{
             position: absolute;
@@ -104,7 +94,6 @@
             cursor: pointer;
             color: #fff;
             background-color: #30529F;
-
             width: 36px;
             height: 36px;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
@@ -113,9 +102,7 @@
             justify-content: center;
             font-size: 26px;
             transition: all .4s;
-            &:hover{
-                background-color: #CED6E9;
-            }
+            &:hover{  background-color: #CED6E9;  }
         }
     }
     .info_text{
@@ -145,15 +132,12 @@
             .circle{
                 width: 12px;
                 height: 12px;
-                // border: 1px solid #111;
                 border-radius: 50%;
                 margin-right: 10px;
                 cursor: pointer;
                 background-color: #E6EBF4;
                 transition: all .4s;
-                &:hover{
-                    background-color: #A9B6D7;
-                }
+                &:hover{  background-color: #A9B6D7; }
             }
         }
         .product_buttons{
@@ -192,23 +176,19 @@
                         transition: all .4s; 
                     }
                     &:hover{
-                        img{
-                            margin-left: 13px;
-                        }
+                        img{ margin-left: 13px;  }
                     }
                 }
             }
         }
     }
     .backElements{
-        // border: 1px solid #111;
         position: absolute;
         bottom: -20%;
         z-index: -1;
         left: 0;
     }
     .backElements1{
-        // border: 1px solid #111;
         height: 400px;
         position: absolute;
         right: -5%;
@@ -220,31 +200,11 @@
 
 
 @keyframes blob{
-    0%, 100%{
-        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    }
-    33%{
-        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
-    }
-    66%{
-        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
-    }
-
+    0%, 100%{ border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%; }
+    33%{ border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;}
+    66%{ border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; }
 }
 
-
-
-
-//Making responsive
-@media (min-width: 1280px){
-   
-}
-@media (max-width: 1024px){
-   
-}
-@media (max-width: 935px){
-  
-}
 @media (max-width: 835px){
     .productsContainer{
         .container{
@@ -257,37 +217,28 @@
         }   
     }
 }
-@media (max-width: 601px){
 
-}
 @media (max-width: 450px){
     .productsContainer{
         .container{
             .info_images{
                 width: 320px;
                 height: 270px;
-                .chicken1{
-                    height: 320px;
-                }
+                .chicken1{  height: 320px; }
                 .smallBubble{
                     width: 100px;
                     height: 100px;
-                    p{
-                        font-size: 12px;
-                    }
+                    p{ font-size: 12px; }
                 }
                 .smallBubble_top{
                     width: 100px;
                     height: 100px;
-                    p{
-                        font-size: 12px;
-                    }
+                    p{    font-size: 12px;}
                 }
                 .packageImage{
                     height: 200px;
                     right: -20%;
-                }
-              
+                }  
             }
             .leftBtn{
                 left: -10%;
@@ -299,15 +250,12 @@
                 top: 30%;
             }
             .info_text{
-                h1{
-                    font-size: 32px;
-                }
+                h1{    font-size: 32px;  }
                 p{
                     font-size: 12px;
                     width: 90%;
                 }
             }
-           
         }        
     }
 } 

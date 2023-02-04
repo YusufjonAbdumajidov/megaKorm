@@ -1,25 +1,19 @@
 .companyContainer{
     padding: 100px 10%;
     display: flex;
-    // overflow: hidden;
-    // flex-direction: column;
     .images_container{
-        // border: 1px solid #111;
         .image{
             width: 375.1px;
             height: 370.6px;
-            // background: url("../assets/company.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             background-color: #7C90C0;
             overflow: hidden;
             border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-            // border: 1px solid #111;
             animation: blob 6.7s linear infinite;
         }
         section{
-            // border: 1px solid #111;
             display: flex;
             justify-content: center;
             margin-top: 20px;
@@ -31,12 +25,8 @@
                 margin-right: 10px;
                 background-color: #abbcdc;
                 transition: all .4s;
-                &:hover{
-                    background-color: #30529F;
-                }
-                &:nth-child(3){
-                    margin-right: 0px;
-                }
+                &:hover{background-color: #30529F;}
+                &:nth-child(3){ margin-right: 0px;}
             }
         }
     }
@@ -59,7 +49,6 @@
             margin-bottom: 42px;
         }
         .ratings{
-            // border: 1px solid #111;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -97,36 +86,21 @@
             font-size: 14px;
             line-height: 24px;
             color: #869AC7;
-            img{
-                margin-right: 4px;
-            }
+            img{ margin-right: 4px;}
         }
     }
 }
 
 
 @keyframes blob{
-    0%, 100%{
-        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    }
-    33%{
-        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
-    }
-    66%{
-        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
-    }
+    0%, 100%{border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;}
+    33%{border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;}
+    66%{ border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;}
 }
-
-
 
 
 //Making a responsive
-@media (min-width: 1280px){
-   
-}
-@media (max-width: 1024px){
-   
-}
+
 @media (max-width: 935px){
     .companyContainer{
         .images_container{
@@ -138,12 +112,7 @@
         flex-direction: column;
     }
 }
-@media (max-width: 835px){
-   
-}
-@media (max-width: 601px){
-   
-}
+
 @media (max-width: 450px){
     .companyContainer{
         .images_container{
@@ -162,10 +131,7 @@
                 section{
                     margin: 20px 0;
                     flex-direction: row;
-                    h2{
-                        margin-right: 16px;
-                    }
-
+                    h2{margin-right: 16px;}
                 }
             }
         }
