@@ -56,3 +56,81 @@ footer{
         }
     }
 }
+
+
+//Making responsive
+@media (min-width: 1280px){
+   
+}
+@media (max-width: 1024px){
+    footer{
+        .logo{
+            h1{
+              
+            }
+            span{
+              
+            }
+        }
+        p{
+           
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                height: 35px;
+                width: 40px;
+                margin: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 935px){
+   
+}
+@media (max-width: 835px){
+   
+}
+@media (max-width: 601px){
+    footer{
+        flex-direction: column;
+       
+        
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                height: 25px;
+                width: 30px;
+                margin: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 450px){
+    footer{
+        flex-direction: column;
+        .logo{
+            h1{
+              font-size: 16px;
+            }
+            span{
+                font-size: 10px;
+            }
+        }
+        p{
+            font-size: 12px;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 30px;
+            img{
+                height: 25px;
+                width: 30px;
+                margin: 10px;
+            }
+        }
+    }
+} 

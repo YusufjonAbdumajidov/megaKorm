@@ -231,3 +231,84 @@
     }
 
 }
+
+
+
+
+//Making responsive
+@media (min-width: 1280px){
+   
+}
+@media (max-width: 1024px){
+   
+}
+@media (max-width: 935px){
+  
+}
+@media (max-width: 835px){
+    .productsContainer{
+        .container{
+            flex-direction: column;
+            .info_text{
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 80px;
+            }
+        }   
+    }
+}
+@media (max-width: 601px){
+
+}
+@media (max-width: 450px){
+    .productsContainer{
+        .container{
+            .info_images{
+                width: 320px;
+                height: 270px;
+                .chicken1{
+                    height: 320px;
+                }
+                .smallBubble{
+                    width: 100px;
+                    height: 100px;
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .smallBubble_top{
+                    width: 100px;
+                    height: 100px;
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .packageImage{
+                    height: 200px;
+                    right: -20%;
+                }
+              
+            }
+            .leftBtn{
+                left: -10%;
+                top: 30%;
+            }
+            .rightBtn{
+                position: absolute;
+                right: -10%;
+                top: 30%;
+            }
+            .info_text{
+                h1{
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 90%;
+                }
+            }
+           
+        }        
+    }
+} 
+

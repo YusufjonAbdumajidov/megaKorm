@@ -61,11 +61,68 @@
                 }
             }
         }
-        // table{
-        //     width: 100%;
-        //     padding: 0 20px;
-        //     border: 1px solid #111;
-        //     margin-top: 138px;
-        // }
     }
 }
+
+
+
+
+//Making a responsive
+@media (min-width: 1280px){
+   
+}
+@media (max-width: 1024px){
+   
+}
+@media (max-width: 935px){
+  
+}
+@media (max-width: 835px){
+    .modal{
+        .calender{
+            width: 745px;
+            height: 300px;
+            bottom: 10%;    
+            header{
+                width: 745px;
+            }
+        }
+    }
+}
+@media (max-width: 601px){
+    .modal{
+        .calender{
+            width: 545px;
+            height: 300px;  
+            bottom: 10%;  
+            header{
+                width: 545px;
+                table{
+                    th{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 450px){
+    .modal{
+        .calender{
+            width: 345px;
+            height: 150px;  
+            bottom: 20%; 
+            header{
+                width: 345px;
+                table{
+                    th{
+                        font-size: 10px;
+                    }
+                    tr{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+} 

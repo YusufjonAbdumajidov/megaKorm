@@ -80,7 +80,7 @@
         // border: 1px solid #111;
         position: absolute;
         bottom: -20%;
-        z-index: -1;
+        z-index: -11;
     }
     .backElements1{
         // border: 1px solid #111;
@@ -108,3 +108,112 @@
 
 
 
+
+//making responsive design
+@media (min-width: 1440px) and (min-height: 900px){
+    .landingContainer{
+        height: 70vh;
+        .pig_blob{
+            top: -5%;
+            right: -25%;
+            width: 1200px;
+            height: 580px;
+        }
+    }
+}
+@media (min-width: 1280px){
+    .landingContainer{
+        .pig_blob{
+            top: -5%;
+            right: -25%;
+            width: 1200px;
+            height: 580px;
+        }
+    }
+}
+@media (max-width: 1024px){
+    .landingContainer{
+        .pig_blob{
+            top: -5%;
+            right: -25%;
+            width: 1000px;
+            height: 580px;
+        }
+    }
+}
+@media (max-width: 935px){
+    .landingContainer{
+        .pig_blob{
+            top: -9%;
+            right: -25%;
+            width: 1260px;
+            height: 600px;
+        }
+        .intro{
+            width: 70%;
+            top: 290px;
+        }
+    }
+}
+@media (max-width: 835px){
+    .landingContainer{
+        .pig_blob{
+            top: -9%;
+            right: -25%;
+            width: 1260px;
+            height: 600px;
+        }
+        .intro{
+            width: 70%;
+            top: 290px;
+            .buttons{
+                display: flex;
+            }
+        }
+    }
+}
+@media (max-width: 601px){
+    .landingContainer{
+        .pig_blob{
+            right: -55%;
+        }
+        .buttons{
+            display: flex;
+        }
+    }
+}
+@media (max-width: 450px){
+    .landingContainer{
+        .pig_blob{
+            top: -10%;
+            right: -65%;
+            width: 900px;
+            height: 600px;
+            img{
+                bottom: -5%;
+                height: 430px;
+            }
+        }
+        .intro{
+            left: 10%;
+            top: 190px;
+            width: 80%;
+            h1{
+                font-size: 40px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .buttons{
+                display: flex;
+                .btn{
+                    margin-right: 10px;
+                    font-size: 14px;
+                    width: 130px;
+                    height: 34px;     
+                }
+            }
+        }
+    }
+}
