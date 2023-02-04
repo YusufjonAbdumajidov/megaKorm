@@ -10,20 +10,19 @@ import Footer from './components/Footer';
 import Loading from './components/Loading';
 
 function App() {
-  // const [ isLoading, setIsLoading ] = useState(false);
-  // useEffect(() => {
-  //   setIsLoading(true);
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2000)
-  // }, [])
+  const [ isLoading, setIsLoading ] = useState(false);
+  useEffect(() => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000)
+  }, [])
 
   // if(isLoading){
   //   <Loading  />
   // }else 
   return (
     <div className="App">
-      {/* <Loading  /> */}
       <Landing />
       <Products />
       <About />
