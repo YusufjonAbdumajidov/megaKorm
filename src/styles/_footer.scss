@@ -12,23 +12,19 @@ footer{
             font-size: 20px;
             line-height: 24px;
             text-transform: capitalize;
-            color: #869AC7;
-        }
+            color: #869AC7; }
         span{
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
-            color: #869AC7;
-        }
-    }
+            color: #869AC7;}}
     p{
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
-        color: #869AC7;
-    }
+        color: #869AC7; }
     .icons{
         display: flex;
         flex-wrap: wrap;
@@ -41,9 +37,7 @@ footer{
             &:nth-child(1){background-color: #F585A7; }
             &:nth-child(2){background-color: #99E1EF;}
             &:nth-child(3){ background-color: #8A9CC6; }
-            &:nth-child(4){ background-color:  #AA89C0;}
-        }
-    }
+            &:nth-child(4){ background-color:  #AA89C0;}}}
 }
 
 //Making responsive
@@ -55,8 +49,7 @@ footer{
             img{
                 height: 35px;
                 width: 40px;
-                margin: 10px;
-            }
+                margin: 10px;}
         }
     }
 }
@@ -69,18 +62,14 @@ footer{
             img{
                 height: 25px;
                 width: 30px;
-                margin: 10px;
-            }
-        }
-    }
+                margin: 10px; }}}
 }
 @media (max-width: 450px){
     footer{
         flex-direction: column;
         .logo{
             h1{font-size: 16px;}
-            span{ font-size: 10px; }
-        }
+            span{ font-size: 10px; } }
         p{ font-size: 12px;}
         .icons{
             display: flex;
@@ -89,8 +78,6 @@ footer{
             img{
                 height: 25px;
                 width: 30px;
-                margin: 10px;
-            }
-        }
+                margin: 10px;} }
     }
 } 

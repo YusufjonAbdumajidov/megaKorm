@@ -11,15 +11,13 @@
             font-size: 48px;
             line-height: 44px;
             color: $primaryTextColor;
-            margin-bottom: 30px;
-        }
+            margin-bottom: 30px;}
         p{
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-            margin-bottom: 35px;
-        }
+            margin-bottom: 35px;}
         .icons{
             display: flex;
             flex-direction: column;
@@ -31,17 +29,13 @@
                 border-radius: 50%;
             }
             section{
-                &:nth-child(1){margin-bottom: 30px;}
-            }
-        }
+                &:nth-child(1){margin-bottom: 30px;}}}
         h2{
             font-style: normal;
             font-weight: 700;
             font-size: 64px;
             line-height: 78px;
-            color: $primaryTextColor;
-        }
-    }
+            color: $primaryTextColor; } }
     .image_wrapper{
         width: 60%;
         height: 70vh;
@@ -54,8 +48,7 @@
             bottom: 0;
             width: 356.68px;
             height: 389.21px;
-            z-index: 1111111;
-        }
+            z-index: 1111111; }
         .info_wrapper{
             position: absolute;
             width: 100%;
@@ -79,16 +72,14 @@
                     background-color: #92C9AA;
                     animation-delay: .4s;
                     z-index: -11111;
-                    position: absolute;
-                }
+                    position: absolute; }
                 &:nth-child(2){
                     bottom: 10%;
                     left: 5%;
                     width: 197.41px;
                     height: 215.36px;
                     background-color: #F585A7;
-                    position: absolute;
-                }
+                    position: absolute; }
                 &:nth-child(3){
                     position: absolute;
                     right: 10%;
@@ -96,28 +87,21 @@
                     width: 288.26px;
                     height: 306.21px;
                     background-color: #AA89C0;
-                    animation-delay: .2s;
-                }
+                    animation-delay: .2s; }
                 h2{
                     font-style: normal;
                     font-weight: 700;
                     font-size: 48px;
                     line-height: 48px;
                     color: #F9F9FC;
-                    margin-bottom: 10px;
-                }
+                    margin-bottom: 10px;}
                 p{
                     font-style: normal;
                     font-weight: 700;
                     font-size: 20px;
                     line-height: 24px;
-                    color: #F9F9FC;
-                }
-                animation: blob 3.7s linear infinite;
-                transform: all .4s;
-            }
-        }
-    }
+                    color: #F9F9FC;}
+                animation: blob 3.7s linear infinite; }
 }
 
 

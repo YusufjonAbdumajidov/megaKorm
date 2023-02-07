@@ -19,9 +19,7 @@
             position: absolute;
             right: 0%;
             bottom: -15%;
-            height: 630px;
-        }
-    }
+            height: 630px;} }
     .intro{
         position: absolute;
         left: 10%;
@@ -36,16 +34,14 @@
             font-weight: 700;
             font-size: 48px;
             line-height: 52px;
-            color: $primaryTextColor;
-        }
+            color: $primaryTextColor; }
         p{
             margin-top: 40px;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-            color: $secondaryTextColor;
-        }
+            color: $secondaryTextColor; }
         .buttons{
             margin-top: 30px;
             .btn{
@@ -62,8 +58,7 @@
                 cursor: pointer;
                 border: none;
                 outline: none;
-                &:nth-child(1){color: #fff;} 
-            }
+                &:nth-child(1){color: #fff;}  }
             .btn2{
                 font-size: 14px;
                 font-weight: 700;
@@ -78,32 +73,23 @@
                 border: none;
                 outline: none;
                 color: $primaryTextColor;
-                background-color: rgb(48, 82, 159, .2);
-            }
-        }
-    }
+                background-color: rgb(48, 82, 159, .2); } } }
     .backElements{
         position: absolute;
         bottom: -20%;
-        z-index: -11;
-    }
+        z-index: -11; }
     .backElements1{
         height: 400px;
         position: absolute;
         right: -5%;
         bottom: 0;
         z-index: -11;
-        transform: rotate(56deg);
-    }
+        transform: rotate(56deg); }
 }
 @keyframes blob{
     0%, 100%{border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;}
     33%{ border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;}
-    66%{ border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; }
-}
-
-
-
+    66%{ border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; }}
 
 //making responsive design
 @media (min-width: 1440px) and (min-height: 900px){
@@ -113,9 +99,7 @@
             top: -5%;
             right: -25%;
             width: 1200px;
-            height: 580px;
-        }
-    }
+            height: 580px; }}
 }
 @media (min-width: 1280px){
     .landingContainer{
@@ -123,9 +107,7 @@
             top: -5%;
             right: -25%;
             width: 1200px;
-            height: 580px;
-        }
-    }
+            height: 580px; }}
 }
 @media (max-width: 1024px){
     .landingContainer{
@@ -133,9 +115,7 @@
             top: -5%;
             right: -25%;
             width: 1000px;
-            height: 580px;
-        }
-    }
+            height: 580px; } }
 }
 @media (max-width: 935px){
     .landingContainer{
@@ -143,13 +123,8 @@
             top: -9%;
             right: -25%;
             width: 1260px;
-            height: 600px;
-        }
-        .intro{
-            width: 70%;
-            top: 290px;
-        }
-    }
+            height: 600px; }
+        .intro{width: 70%; top: 290px;}}
 }
 @media (max-width: 835px){
     .landingContainer{
@@ -157,21 +132,14 @@
             top: -9%;
             right: -25%;
             width: 1260px;
-            height: 600px;
-        }
+            height: 600px; }
         .intro{
             width: 70%;
             top: 290px;
-            .buttons{  display: flex; }
-        }
-    }
+            .buttons{  display: flex; } }}
 }
 @media (max-width: 601px){
-    .landingContainer{
-        .pig_blob{ right: -55%; }
-        .buttons{  display: flex; }
-    }
-}
+    .landingContainer{.pig_blob{ right: -55%; }.buttons{  display: flex; }}}
 @media (max-width: 450px){
     .landingContainer{
         .pig_blob{
@@ -179,19 +147,12 @@
             right: -65%;
             width: 900px;
             height: 600px;
-            img{
-                bottom: -5%;
-                height: 430px;
-            }
-        }
+            img{  bottom: -5%; height: 430px;} }
         .intro{
             left: 10%;
             top: 190px;
             width: 80%;
-            h1{
-                font-size: 40px;
-                line-height: 40px;
-            }
+            h1{font-size: 40px; line-height: 40px; }
             p{  font-size: 14px; }
             .buttons{
                 display: flex;

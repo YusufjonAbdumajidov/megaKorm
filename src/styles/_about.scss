@@ -28,16 +28,14 @@
             align-items: center;
             img{
                 width: 130px;
-                height: 115px;
-            }
+                height: 115px;}
             p{
                 margin-top: 16px;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 24px;
-                color: $primaryTextColor;
-            }
+                color: $primaryTextColor;}
             span{
                 margin-top: 16px;
                 font-style: normal;
@@ -51,15 +49,11 @@
                     img{
                         width: 15px;
                         height: 18px;
-                        margin-right: 6px;
-                    }
+                        margin-right: 6px;}
                     font-style: normal;
                     font-weight: 700;
                     font-size: 12px;
                     line-height: 24px;
-                    color: rgba(48, 82, 159, 0.57);
-                }
-            }
-        }
+                    color: rgba(48, 82, 159, 0.57);}}}
     }
 }
