@@ -26,8 +26,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: $primaryTextColor;
-        }
+            background-color: $primaryTextColor; }
         header{
             width: 825px;
             background-color: #fff;
@@ -40,11 +39,7 @@
                 th{   text-align: left; }
                 tr{
                     border: 1px solid #111;
-                    td{  padding: 10px 0; }
-                }
-            }
-        }
-    }
+                    td{  padding: 10px 0; }}}} }
 }
 
 @media (max-width: 835px){
@@ -53,9 +48,7 @@
             width: 745px;
             height: 300px;
             bottom: 10%;    
-            header{  width: 745px;  }
-        }
-    }
+            header{  width: 745px;  } }}
 }
 @media (max-width: 601px){
     .modal{
@@ -66,11 +59,7 @@
             header{
                 width: 545px;
                 table{
-                    th{  font-size: 10px; }
-                }
-            }
-        }
-    }
+                    th{  font-size: 10px; } } } }}
 }
 @media (max-width: 450px){
     .modal{
@@ -82,9 +71,5 @@
                 width: 345px;
                 table{
                     th{    font-size: 10px;  }
-                    tr{   font-size: 10px;   }
-                }
-            }
-        }
-    }
+                    tr{   font-size: 10px;   }  } }}}
 } 

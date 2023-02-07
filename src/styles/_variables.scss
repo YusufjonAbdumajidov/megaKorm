@@ -4,9 +4,7 @@ $textHoverColor: #F28F1B;
 $backgroundColor: #f9f9f9;
 $buttonBackground: #F28F1B;
 
-
 @mixin flexCenter{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;}

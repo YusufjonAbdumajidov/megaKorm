@@ -11,9 +11,7 @@ nav{
             width: 226px;
             top: 52.16552734375px;
             border-radius: 0px;
-            cursor: pointer;
-        }
-    }
+            cursor: pointer; }}
     ul{
         @include flexCenter;
         li{
@@ -26,18 +24,14 @@ nav{
                 line-height: 17px;
                 transition: all .3s;
                 letter-spacing: 1px;
-                &:hover{ color: $textHoverColor; }
-            }
-            .lastBtn{ margin-right: 0px; }
-        }
-    }
+                &:hover{ color: $textHoverColor; } }
+            .lastBtn{ margin-right: 0px; } } }
     .nav-btn{
         position: absolute;
         right: 0;
         cursor: pointer;
         visibility: hidden;
-        opacity: 0;
-    }
+        opacity: 0; }
 }
 
 
@@ -58,19 +52,14 @@ nav{
         background-color: #f9f9f9;
         transition: all .4s;
         z-index: 11;
-        li{ font-size: 24px;  }
-    }
+        li{ font-size: 24px;  } }
     .nav-btn{
         cursor: pointer;
         visibility: visible;
-        opacity: 1;
-    }
+        opacity: 1;}
     .responsive_nav{
-        transform: none;
-    }
+        transform: none;}
     .nav-close-btn{
         right: 10%;
-        top: 5%;
-    }
-   }
+        top: 5%;}}
 }
