@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/megaKorm/static/css/main.54d1c652.css",
+    "main.js": "/megaKorm/static/js/main.f7ff0c0a.js",
+    "static/media/pig.png": "/megaKorm/static/media/pig.1fc3dc0043cf23d44bb6.png",
+    "static/media/rabbit.webp": "/megaKorm/static/media/rabbit.473a4eedfe318a1b928b.webp",
+    "static/media/company2.png": "/megaKorm/static/media/company2.7189788a57c2ef917786.png",
+    "static/media/cow.png": "/megaKorm/static/media/cow.88f8e7b9f441d8c85d29.png",
+    "static/media/chicken2.png": "/megaKorm/static/media/chicken2.b45ee4db2d9935767e48.png",
+    "static/media/cow.webp": "/megaKorm/static/media/cow.cb172c432d89f9e486ea.webp",
+    "static/media/chikens.webp": "/megaKorm/static/media/chikens.4f90d4a41d48fb6cd5bb.webp",
+    "static/media/chicken5.png": "/megaKorm/static/media/chicken5.1b5816c55a35a0d797e3.png",
+    "static/media/chicken3.png": "/megaKorm/static/media/chicken3.4d5c7bccbd40e26d6aa0.png",
+    "static/media/rabbit.png": "/megaKorm/static/media/rabbit.ed952d780c612ea798d8.png",
+    "static/media/pig2.png": "/megaKorm/static/media/pig2.2c5685ac806ca73730ef.png",
+    "static/media/chicken1.png": "/megaKorm/static/media/chicken1.644a5afe357b7f41fd03.png",
+    "static/media/chicken4.png": "/megaKorm/static/media/chicken4.9fa9e736d1cd22eddf99.png",
+    "static/media/package6.png": "/megaKorm/static/media/package6.251b607104ec7a7c4a98.png",
+    "static/media/package3.png": "/megaKorm/static/media/package3.632edf749816daf2fde5.png",
+    "static/media/package1.png": "/megaKorm/static/media/package1.55f44663e95807b05bef.png",
+    "static/media/package2.png": "/megaKorm/static/media/package2.4cf6e0e603177953cf09.png",
+    "static/media/package4.png": "/megaKorm/static/media/package4.22405d78288064b25a5b.png",
+    "static/media/package5.png": "/megaKorm/static/media/package5.cc8c5e294d344298b907.png",
+    "static/media/pigProduct.png": "/megaKorm/static/media/pigProduct.c7a9b39da932e0c8f334.png",
+    "static/media/package.png": "/megaKorm/static/media/package.abd5bb5a4b22eda508af.png",
+    "static/media/duck.webp": "/megaKorm/static/media/duck.0a4a0a701f4c0f72eab3.webp",
+    "static/media/pig.webp": "/megaKorm/static/media/pig.37d223385b94abe1cca4.webp",
+    "static/media/company.png": "/megaKorm/static/media/company.fb32d9353ac29ef982b5.png",
+    "static/media/chiken.webp": "/megaKorm/static/media/chiken.724f4c79dcf8aeb138cd.webp",
+    "static/media/company3.png": "/megaKorm/static/media/company3.160dafedec59a358bf9c.png",
+    "static/media/backElements.png": "/megaKorm/static/media/backElements.092028473f39b4aac830.png",
+    "index.html": "/megaKorm/index.html",
+    "main.54d1c652.css.map": "/megaKorm/static/css/main.54d1c652.css.map",
+    "main.f7ff0c0a.js.map": "/megaKorm/static/js/main.f7ff0c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d1c652.css",
+    "static/js/main.f7ff0c0a.js"
+  ]
+}
